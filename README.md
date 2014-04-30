@@ -21,6 +21,13 @@ Features:
 Just download the boilerplate.scss, modify it for your needs, compile it and add it before your other css files.
 Note: This classes arent prefixed.
 
+You can run SASS with -w for SASS to watch the boilerplate.scss
+
+```bat
+sass -w boilerplate.scss
+```
+
+
 Add the compiled boilerplate.css to your project.
 ```html
 <link rel="stylesheet" href="/path/to/boilerplate.css">
