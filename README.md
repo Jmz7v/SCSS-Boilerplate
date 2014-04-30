@@ -23,7 +23,9 @@ Add the class **.border-box** to an element in order to change it's box model.
 Example
 
 ```html
-<div class="myAwesomeDiv border-box"><p>Hello World!</p></div>
+<div class="myAwesomeDiv border-box">
+	<p>Hello World!</p>
+</div>
 ```
 
 
@@ -50,7 +52,7 @@ Add one of the following CSS classes to your element in order to provide whitesp
 .espacio-xlarge
 .espacio-xxlarge
 .espacio-sick
-``
+```
 
 
 ### Customizable content width class
