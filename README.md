@@ -23,8 +23,8 @@ Note: This classes arent prefixed.
 
 You can run SASS with -w for SASS to watch the boilerplate.scss
 
-```bat
-$ sass -w boilerplate.scss
+```sh
+$	sass -w boilerplate.scss
 ```
 
 
