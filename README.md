@@ -25,10 +25,11 @@ Add the class **.border-box** to an element in order to change it's box model.
 ### Responsive YouTube video
 
 Add the following HTLM code inside your element:
+```html
 <div class="embed-container">
 	<iframe src="{{post.video-link}}" frameborder='0' allowfullscreen></iframe>
 </div>
-
+````
 
 ### Whitespace
 
