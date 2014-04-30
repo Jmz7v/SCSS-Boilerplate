@@ -15,12 +15,39 @@ Features:
 
 ## Usage
 
-Add one of the following CSS classes to provide whitespace (similar to padding) at the bottom of an element.
+
+### Border Box class
+
+Add the class **.border-box** to an element in order to change it's box model.
+
+
+
+### Responsive YouTube video
+
+Add the following HTLM code inside your element:
+<div class="embed-container">
+	<iframe src="{{post.video-link}}" frameborder='0' allowfullscreen></iframe>
+</div>
+
+
+### Whitespace
+
+Add one of the following CSS classes to your element in order to provide whitespace (similar to padding) at the bottom of an element.
+
 .espacio-small
+
 .espacio-medium
+
 .espacio-large
+
 .espacio-xlarge
+
 .espacio-xxlarge
+
 .espacio-sick
+
+
+
+### 
 
 
