@@ -60,3 +60,20 @@ $content-max-width: 960px;
 ```
 
 
+### Transition Mixin
+
+Example
+
+```sass
+.yourClass {
+	@include transition(120ms background-color ease);
+}
+```
+
+Multiple transitions
+
+```sass
+.yourClass {
+	@include transition((120ms background-color, 200ms color, 70ms font-size) ease);
+}
+```
