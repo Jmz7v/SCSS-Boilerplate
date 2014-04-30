@@ -13,6 +13,25 @@ Features:
 - Border radius class (Mixin)
 - Six whitespaces at the bottom of a block
 
+
+
+
+## Install
+
+Just download the boilerplate.scss, modify it for your needs, compile it and add it before your other css files.
+Note: This classes arent prefixed.
+
+Add the compiled boilerplate.css to your project.
+```html
+<link rel="stylesheet" href="/path/to/boilerplate.css">
+```
+
+
+
+
+
+
+
 ## Usage
 
 
