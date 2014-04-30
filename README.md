@@ -20,6 +20,11 @@ Features:
 
 Add the class **.border-box** to an element in order to change it's box model.
 
+Example
+
+```html
+<div class="myAwesomeDiv border-box"><p>Hello World!</p></div>
+```
 
 
 ### Responsive YouTube video
@@ -38,18 +43,14 @@ Please note that the video will take the whole width of it's parent element.
 
 Add one of the following CSS classes to your element in order to provide whitespace (similar to padding) at the bottom of an element.
 
+```css
 .espacio-small
-
 .espacio-medium
-
 .espacio-large
-
 .espacio-xlarge
-
 .espacio-xxlarge
-
 .espacio-sick
-
+``
 
 
 ### Customizable content width class
