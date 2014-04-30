@@ -77,3 +77,13 @@ Multiple transitions
 	@include transition((120ms background-color, 200ms color, 70ms font-size) ease);
 }
 ```
+
+
+### Opacity Mixin
+
+Example
+```sass
+.yourClass {
+	@include opacity(0.85);
+}
+```
