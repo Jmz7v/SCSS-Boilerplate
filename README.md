@@ -29,6 +29,8 @@ Example
 ```
 
 
+
+
 ### Responsive YouTube video
 
 Add the following HTLM code to place a YouTube video:
@@ -41,18 +43,6 @@ Add the following HTLM code to place a YouTube video:
 Please note that the video will take the whole width of it's parent element.
 
 
-### Whitespace
-
-Add one of the following CSS classes to your element in order to provide whitespace (similar to padding) at the bottom of an element.
-
-```css
-.espacio-small
-.espacio-medium
-.espacio-large
-.espacio-xlarge
-.espacio-xxlarge
-.espacio-sick
-```
 
 
 ### Customizable content width class
@@ -61,6 +51,8 @@ Change the following code in the boilerplate.scss file
 ```sass
 $content-max-width: 960px;
 ```
+
+
 
 
 ### Transition Mixin
@@ -82,6 +74,8 @@ Multiple transitions
 ```
 
 
+
+
 ### Opacity Mixin
 
 Example
@@ -90,3 +84,50 @@ Example
 	@include opacity(0.85);
 }
 ```
+
+
+
+
+### Circled class
+
+Turns a squared block into a circle by adding the **.circled** class to a block.
+
+```html
+<div class="circled">
+	<p>If I was a square now I am a circle! :D</p>
+</div>
+```
+
+
+
+
+### Border radius Mixin
+
+Example
+
+```sass
+.yourClass {
+	@include border-radius(12%);
+}
+.anotherClass {
+	@include border-radius(4px);
+}
+```
+
+
+
+
+
+### Whitespace
+
+Add one of the following CSS classes to your element in order to provide whitespace (similar to padding) at the bottom of an element.
+
+```css
+.espacio-small
+.espacio-medium
+.espacio-large
+.espacio-xlarge
+.espacio-xxlarge
+.espacio-sick
+```
+
