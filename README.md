@@ -1,7 +1,7 @@
 SCSS-Boilerplate
 ================
 
-__My very own SCSS kickstarter__
+_My very own SCSS kickstarter_
 
 Features:
 - Border Box class
@@ -24,12 +24,12 @@ Add the class **.border-box** to an element in order to change it's box model.
 
 ### Responsive YouTube video
 
-Add the following HTLM code inside your element:
+Add the following HTLM code to place a YouTube video:
 ```html
 <div class="embed-container">
 	<iframe src="{{youtube-video-link}}" frameborder='0' allowfullscreen></iframe>
 </div>
-````
+```
 
 Please note that the video will take the whole width of it's parent element.
 
@@ -52,6 +52,11 @@ Add one of the following CSS classes to your element in order to provide whitesp
 
 
 
-### 
+### Customizable content width class
+
+Change the following code in the boilerplate.scss file
+```sass
+$content-max-width: 960px;
+```
 
 
