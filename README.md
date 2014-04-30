@@ -1,7 +1,7 @@
 SCSS-Boilerplate
 ================
 
-My template for SCSS
+__My very own SCSS kickstarter__
 
 Features:
 - Border Box class
