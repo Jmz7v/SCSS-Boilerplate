@@ -42,7 +42,7 @@ Add the compiled boilerplate.css to your project.
 ## Usage
 
 
-### Border Box class
+### Border Box class and mixin
 
 Add the class **.border-box** to an element in order to change it's box model.
 
@@ -54,6 +54,13 @@ Example
 </div>
 ```
 
+The border.box properties can also be added using a minxin as follows.
+
+```sass
+.yourClass {
+	@include border-box;
+}
+```
 
 
 

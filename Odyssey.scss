@@ -1,6 +1,6 @@
 /*--------------------------------------------------
 	
-	Odyssey v1.0
+	Odyssey v1.1
 	SCSS/SASS template
 	https://github.com/Jmz7v/Odyssey.scss
 	MIT License
@@ -53,7 +53,14 @@ $content-max-width: 960px;
   filter: alpha(opacity=$value);
            -moz-opacity: $value;
                 opacity: $value;
-} 
+}
+
+@mixin border-box {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
 
 
 
