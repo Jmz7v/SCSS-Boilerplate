@@ -25,13 +25,14 @@ body, html {
 	font-size: 16px;
 }
 
-$content-max-width: 960px;
 
-.content-max-width {
-	max-width: $content-max-width;
-	margin-left: auto;
-	margin-right: auto;
-}
+
+
+/*--------------------------------------------------
+	Variables and Mixins
+--------------------------------------------------*/
+
+$content-max-width: 960px;
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -54,19 +55,12 @@ $content-max-width: 960px;
                 opacity: $value;
 } 
 
-.border-box {
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
-}
 
-.circled {
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-       -o-border-radius: 50%;
-          border-radius: 50%;
-}
+
+
+/*--------------------------------------------------
+	Responsive YouTube video
+--------------------------------------------------*/
 
 .embed-container {
 	position: relative;
@@ -90,6 +84,31 @@ $content-max-width: 960px;
 
 
 
+
+
+/*--------------------------------------------------
+	Add-on classes
+--------------------------------------------------*/
+
+.content-max-width {
+	max-width: $content-max-width;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.border-box {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.circled {
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+          border-radius: 50%;
+}
 
 .espacio-small:after {
 	display: block;
