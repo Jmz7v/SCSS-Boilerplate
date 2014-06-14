@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*--------------------------------------------------
 	
-	Odyssey v1.2
+	Odyssey v1.3
 	SCSS/SASS template
 	https://github.com/Jmz7v/Odyssey.scss
 	MIT License
@@ -96,3 +96,11 @@ body, html {
   display: block;
   content: "";
   height: 12rem; }
+
+.text-align-center, [text-align-center] {
+  width: 100%;
+  text-align: center; }
+
+.text-align-center-important, [text-align-center-important] {
+  width: 100%;
+  text-align: center !important; }

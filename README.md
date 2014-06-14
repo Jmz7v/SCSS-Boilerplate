@@ -16,6 +16,7 @@ Features:
 
 
 
+
 ## Install
 
 Just download the boilerplate.scss, modify it for your needs, compile it and add it before your other css files.
@@ -162,5 +163,24 @@ Add one of the following CSS classes to your element in order to provide whitesp
 .espacio-xlarge
 .espacio-xxlarge
 .espacio-sick
+```
+
+
+
+
+
+### Text Align to Center class
+
+Please note that in order to make this work as it should be desired, the width of the element is set to 100%.
+
+Example
+
+```html
+<div class="text-align-center">
+	<p>Centered</p>
+</div>
+<div class="text-align-center-important">
+	<p>Centered and Forced</p>
+</div>
 ```
 
