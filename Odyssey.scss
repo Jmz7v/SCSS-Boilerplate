@@ -67,6 +67,12 @@ $content-max-width: 960px;
 	transform: translateY(-50%);
 }
 
+@mixin preserve-3d {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
 @mixin border-box {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -176,6 +182,12 @@ $content-max-width: 960px;
 .text-align-center-important, [text-align-center-important] {
 	width: 100%;
 	text-align: center!important;
+}
+
+.preserve-3d {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
 }
 
 .vertical-align {
