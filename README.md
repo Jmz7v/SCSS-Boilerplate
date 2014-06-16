@@ -13,7 +13,12 @@ Features:
 - Border radius class (Mixin)
 - Six whitespaces at the bottom of a block
 
+To Do:
+Docs for:
 
+- vertical-align
+- border-box
+- circled
 
 
 
