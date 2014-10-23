@@ -59,6 +59,13 @@ $content-max-width: 960px;
 	        box-sizing: border-box;
 }
 
+@mixin box-shadow($prop) {
+	-webkit-box-shadow: $prop;
+	-moz-box-shadow: $prop;
+	-o-box-shadow: $prop;
+	box-shadow: $prop;	
+}
+
 @mixin vertical-align {
 	position: relative;
 	top: 50%;
