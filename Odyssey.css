@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*--------------------------------------------------
 	
-	Odyssey v1.3
+	Odyssey v1.4.2
 	SCSS/SASS template
 	https://github.com/Jmz7v/Odyssey.scss
 	MIT License
@@ -105,3 +105,25 @@ body, html {
 .text-align-center-important, [text-align-center-important] {
   width: 100%;
   text-align: center !important; }
+
+.preserve-3d {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/*# sourceMappingURL=Odyssey.css.map */
