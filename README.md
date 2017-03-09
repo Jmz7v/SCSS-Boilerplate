@@ -1,7 +1,5 @@
-SCSS-Boilerplate
+Odyssey
 ================
-
-_My very own SCSS kickstarter_
 
 Features:
 - Border Box class
@@ -20,8 +18,6 @@ Docs for:
 - border-box
 - circled
 
-
-
 ## Install
 
 Just download the boilerplate.scss, modify it for your needs, compile it and add it before your other css files.
@@ -33,20 +29,12 @@ You can run SASS with -w for SASS to watch the boilerplate.scss
 $	sass -w boilerplate.scss
 ```
 
-
 Add the compiled boilerplate.css to your project.
 ```html
 <link rel="stylesheet" href="/path/to/boilerplate.css">
 ```
 
-
-
-
-
-
-
 ## Usage
-
 
 ### Border Box class and mixin
 
@@ -68,8 +56,6 @@ The border.box properties can also be added using a minxin as follows.
 }
 ```
 
-
-
 ### Responsive YouTube video
 
 Add the following HTLM code to place a YouTube video:
@@ -81,18 +67,12 @@ Add the following HTLM code to place a YouTube video:
 
 Please note that the video will take the whole width of it's parent element.
 
-
-
-
 ### Customizable content width class
 
 Change the following code in the boilerplate.scss file
 ```sass
 $content-max-width: 960px;
 ```
-
-
-
 
 ### Transition Mixin
 
@@ -112,9 +92,6 @@ Multiple transitions
 }
 ```
 
-
-
-
 ### Opacity Mixin
 
 Example
@@ -123,9 +100,6 @@ Example
 	@include opacity(0.85);
 }
 ```
-
-
-
 
 ### Circled class
 
@@ -136,9 +110,6 @@ Turns a squared block into a circle by adding the **.circled** class to a block.
 	<p>If I was a square now I am a circle! :D</p>
 </div>
 ```
-
-
-
 
 ### Border radius Mixin
 
@@ -153,10 +124,6 @@ Example
 }
 ```
 
-
-
-
-
 ### Whitespace
 
 Add one of the following CSS classes to your element in order to provide whitespace (similar to padding) at the bottom of an element.
@@ -169,10 +136,6 @@ Add one of the following CSS classes to your element in order to provide whitesp
 .espacio-xxlarge
 .espacio-sick
 ```
-
-
-
-
 
 ### Text Align to Center class
 
