@@ -95,7 +95,7 @@ $content-max-width: 960px;
       border-radius: 50%;
 }
 
-@mixin noselect {
+@mixin unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -207,7 +207,7 @@ $content-max-width: 960px;
 	transform: translateY(-50%);
 }
 
-.noselect {
+.unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
