@@ -1,14 +1,14 @@
 @charset "UTF-8";
 /*--------------------------------------------------
-	
-	Odyssey v1.4.2
-	SCSS/SASS template
-	https://github.com/Jmz7v/Odyssey.scss
-	MIT License
+  
+  Odyssey v1.4.2
+  SCSS/SASS template
+  https://github.com/Jmz7v/Odyssey.scss
+  MIT License
 
-	Made by Julio Montaño
-	@jmz7v
-		
+  Made by Julio Montaño
+  @jmz7v
+    
 --------------------------------------------------*/
 * {
   margin: 0;
@@ -25,10 +25,10 @@ body, html {
   -webkit-font-smoothing: antialiased; }
 
 /*--------------------------------------------------
-	Variables and Mixins
+  Variables and Mixins
 --------------------------------------------------*/
 /*--------------------------------------------------
-	Responsive YouTube video
+  Responsive YouTube video
 --------------------------------------------------*/
 .embed-container {
   position: relative;
@@ -49,7 +49,7 @@ body, html {
   height: 100%; }
 
 /*--------------------------------------------------
-	Add-on classes
+  Add-on classes
 --------------------------------------------------*/
 .content-max-width, [content-max-width] {
   max-width: 960px;
