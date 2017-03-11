@@ -215,3 +215,41 @@ $content-max-width: 960px;
   -ms-user-select: none;
   user-select: none; 
 }
+
+/*
+ * class-only helpers
+*/
+
+.pull-bottom {
+  vertical-align: bottom;
+}
+
+.pull-text-bottom {
+  vertical-align: bottom;
+}
+
+.pull-top {
+  vertical-align: top;
+}
+
+.pull-text-top {
+  vertical-align: top;
+}
+
+.cursor-default {
+  cursor: default;
+  &:hover {
+    cursor: default;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.phantom {
+  pointer-events: none;
+}

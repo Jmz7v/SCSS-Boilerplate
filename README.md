@@ -20,18 +20,18 @@ Docs for:
 
 ## Install
 
-Just download the boilerplate.scss, modify it for your needs, compile it and add it before your other css files.
+Just download the odyssey.scss, modify it for your needs, compile it and add it before your other css files.
 Note: This classes arent prefixed.
 
-You can run SASS with -w for SASS to watch the boilerplate.scss
+You can run SASS with -w for SASS to watch the odyssey.scss
 
 ```sh
-$	sass -w boilerplate.scss
+$	sass -w odyssey.scss
 ```
 
-Add the compiled boilerplate.css to your project.
+Add the compiled odyssey.css to your project.
 ```html
-<link rel="stylesheet" href="/path/to/boilerplate.css">
+<link rel="stylesheet" href="/path/to/odyssey.css">
 ```
 
 ## Usage
@@ -69,7 +69,7 @@ Please note that the video will take the whole width of it's parent element.
 
 ### Customizable content width class
 
-Change the following code in the boilerplate.scss file
+Change the following code in the odyssey.scss file
 ```sass
 $content-max-width: 960px;
 ```
@@ -152,3 +152,19 @@ Example
 </div>
 ```
 
+## CSS Only Classes
+
+Add the class `pull-bottom` to set : `vertical-align: bottom`.
+}
+
+Add the class `pull-text-bottom` to set : `vertical-align: bottom`.
+
+Add the class `pull-top` to set : `vertical-align: top`.
+
+Add the class `pull-text-top` to set : `vertical-align: top`.
+
+Add the class `cursor-default` to set : `cursor: default`, it also adds it on hover.
+
+Add the class `cursor-pointer` to set : `cursor: pointer`, it also adds it on hover.
+
+Add the class `phantom` to set : `pointer-events: none`.
