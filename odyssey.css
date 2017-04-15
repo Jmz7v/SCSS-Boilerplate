@@ -154,4 +154,13 @@ body, html {
 .phantom {
   pointer-events: none; }
 
+.is-hidden {
+  display: none; }
+
+.is-inline {
+  display: inline-block; }
+
+.is-block {
+  display: block; }
+
 /*# sourceMappingURL=odyssey.css.map */

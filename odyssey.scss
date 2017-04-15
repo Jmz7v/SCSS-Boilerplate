@@ -253,3 +253,16 @@ $content-max-width: 960px;
 .phantom {
   pointer-events: none;
 }
+
+.is-hidden {
+  display: none;
+}
+
+.is-inline {
+  display: inline-block;
+}
+
+.is-block {
+  display: block;
+}
+
